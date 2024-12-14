@@ -60,4 +60,4 @@ for(id in max(positions_df_block_moves$new_id):1){
 
 positions_df_block_moves %>% filter(new_id != 0) %>% summarise(
   checksum = sum((new_id - 1) * (end_position + start_position - 2) * len / 2)
-) # 6376648986651c
+) # 6376648986651
